@@ -30,7 +30,7 @@ import numpy as np
 
 #-- Set up postgre
 dbname = 'bst'
-username = 'shawnramirez'
+username = 'ubuntu'
 engine = create_engine('postgres://%s@localhost/%s'%(username,dbname))
 
 
